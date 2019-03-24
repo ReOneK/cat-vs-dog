@@ -4,8 +4,6 @@ keras_application
 
 主要对于kaggle中经典数据集cat vs dog 数据集进行图像分类
 
-使用keras框架进行训练
-
     
 包括：
 
@@ -25,8 +23,39 @@ keras_application
             
             ==热力图的可视化
             
-           
+ 
+选取了原数据集中的猫狗图片各500张，其中训练集1000，测试集以及验证集分别500张
 
+first
+
+        使用原始数据集进行训练，结果
+        
+        ![loss](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/abc1.png)
+        
+        ![acc](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/abc2.png)
+        
+        可以明显的看出产生了过拟合，因此可以采用迁移学习或者数据增强进行改进
+        
+secend
+        
+        使用数据增强，结果
+        
+        ![loss](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/data_Argu1.png)
+        
+        ![acc](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/data_Argy2.png)
+        
+        过拟合明显被降低了，说明数据增强在小数据集上有防止过拟合的效果
+        
+third
+        
+        使用迁移学习
+        
+        ![loss](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/pretrained1.png)
+        
+        ![acc](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/pretrained2.png)
+        
+        防止过拟合的效果也非常不错
+        
 
 Some Tips:    
   --  神经网络的核心组件是层（layer），它是一种数据处理模块，你可以将它看成数据过滤器。
