@@ -30,31 +30,36 @@ first
 
 使用原始数据集进行训练，结果
         
+
 ![loss](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/abc1.png)
         
+
 ![acc](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/abc2.png)
+        
         
         可以明显的看出产生了过拟合，因此可以采用迁移学习或者数据增强进行改进
         
 secend
         
-        使用数据增强，结果
+使用数据增强，结果
         
-        ![loss](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/data_Argu1.png)
+![loss](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/data_Argu1.png)
+       
+![acc](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/data_Argy2.png)
         
-        ![acc](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/data_Argy2.png)
         
         过拟合明显被降低了，说明数据增强在小数据集上有防止过拟合的效果
         
 third
         
-        使用迁移学习
+使用迁移学习
         
-        ![loss](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/pretrained1.png)
+ ![loss](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/pretrained1.png)
         
-        ![acc](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/pretrained2.png)
+ ![acc](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/pretrained2.png)
         
-        防止过拟合的效果也非常不错
+        
+防止过拟合的效果也非常不错
         
 
 Some Tips:    
