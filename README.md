@@ -28,11 +28,11 @@ keras_application
 
 first
 
-        使用原始数据集进行训练，结果
+使用原始数据集进行训练，结果
         
-        ![loss](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/abc1.png)
+![loss](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/abc1.png)
         
-        ![acc](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/abc2.png)
+![acc](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/abc2.png)
         
         可以明显的看出产生了过拟合，因此可以采用迁移学习或者数据增强进行改进
         
