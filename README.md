@@ -43,8 +43,10 @@ secend
         
 使用数据增强，结果
         
+
 ![loss](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/data_Argu1.png)
-       
+    
+    
 ![acc](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/data_Argy2.png)
         
         
