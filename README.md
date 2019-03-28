@@ -32,12 +32,10 @@ first
 
 Use the original training set   
 -------------
-![loss](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/abc1.png)
-
-<img width="150" height="150" src="https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/abc1.png"/>      
+<img width="200" height="200" src="https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/abc1.png"/>      
         
+<img width="200" height="200" src="https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/abc2.png"/>  
 
-![acc](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/abc2.png)
   
 problem：It can be clearly seen that overfitting has been generated, so migration learning or data enhancement can be adopted for improvement      
         
@@ -45,12 +43,10 @@ secend
  ------      
 data_argument
         
+<img width="200" height="200" src="https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/data_Argu1.png"/>      
+    
+<img width="200" height="200" src="https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/data_Argy2.png"/> 
 
-![loss](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/data_Argu1.png)
-    
-    
-![acc](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/data_Argy2.png)
- 
 result:Overfitting is obviously reduced, indicating that data enhancement has the effect of preventing overfitting on small data sets
         
        
@@ -59,10 +55,9 @@ third
 ------        
 Find-tuning
         
- ![loss](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/pretrained1.png)
-        
- ![acc](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/pretrained2.png)
-   
+ <img width="200" height="200" src="https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/pretrained1.png"/>       
+
+ <img width="200" height="200" src="https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/pretrained2.png"/>  
         
 
 Some Tips:  
