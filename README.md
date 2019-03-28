@@ -33,6 +33,7 @@ first
 Use the original training set   
 -------------
 ![loss](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/abc1.png)
+
 <img width="150" height="150" src="https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/abc1.png"/>      
         
 
