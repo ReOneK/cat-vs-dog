@@ -32,7 +32,7 @@ first
 
 Use the original training set   
 -------------
-<img width="200" height="200" src="https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/abc1.png"/>      
+![](https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/abc1.png)     
         
 <img width="200" height="200" src="https://github.com/ReOneK/Cat-vs-Dog/blob/master/pic/abc2.png"/>  
 
